@@ -25,6 +25,10 @@ Permutations of the following
 - Airplane families aren't very distinguishable from each other for human classification from these images.
 - Increasing the dimensions of the first FC layer pushes the accuracy to 40% but the params become ~10M
 
+### Reproduce results
+- Use the model defined in train.ipynb or download the best_model.pt file
+- Requirements PyTorch v1.0.0 or above
+
 ### Future directions for improvement
 - Models with residual learning, involving identity function from previous layers can be explored.
 - Adding more training data.
