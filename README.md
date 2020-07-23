@@ -5,7 +5,7 @@ Classification for airplane families written in PyTorch.
 ## Models Tried
 Permutations of the following
 - 1,2,3 Convolutional layers with kernels of size 3,5
-- 1,2 Fully Connected Layers
+- 1,2,3 Fully Connected Layers
 - Dropouts, BatchNorm
 - MaxPool, AveragePool
 - SGD, Adam optimizer
