@@ -24,6 +24,7 @@ Permutations of the following
 - SOTA models like ResNet, Inception, VGG need atleast image resolution to be (224,224), hence unable to test any pretrained models also.
 - Airplane families aren't very distinguishable from each other for human classification from these images.
 - Increasing the dimensions of the first FC layer pushes the accuracy to 40% but the params become ~10M
+- Standout planes like SpitFire have accuracy ~66%
 
 ### Reproduce results
 - Use the model defined in train.ipynb or download the best_model.pt file
