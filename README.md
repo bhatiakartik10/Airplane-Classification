@@ -13,8 +13,8 @@ Permutations of the following
 ## Results
 
 ### Model
-- 2 Convolutional layers with 2 Fully connected layers, SGD optimizer
-- Params: 2.5M
+- 2 Convolutional layers with 3 Fully connected layers, SGD optimizer (LeNet-5 like architecture)
+- Params: ~2.5M
 - Overall val accuracy: ~40%
 - Classwise accuracy in the jupyter notebook
 
@@ -22,7 +22,8 @@ Permutations of the following
 - Low accuracy can be explained from low image resolution (107x72), less number of training samples (3334) wrt to number of classes (70).
 - Deep networks don't perform better than shallow ones because of less resolution
 - SOTA models like ResNet, Inception, VGG need atleast image resolution to be (224,224), hence unable to test any pretrained models also.
-- Airplane families aren't very distinguishable from each other for human classification from these images
+- Airplane families aren't very distinguishable from each other for human classification from these images.
+- Increasing the dimensions of the first FC layer pushes the accuracy to 40% but the params become ~10M
 
 ### Future directions for improvement
 - Models with residual learning, involving identity function from previous layers can be explored.
