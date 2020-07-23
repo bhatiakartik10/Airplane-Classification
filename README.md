@@ -30,5 +30,6 @@ Permutations of the following
 - Requirements PyTorch v1.0.0 or above
 
 ### Future directions for improvement
-- Models with residual learning, involving identity function from previous layers can be explored.
+- Models with residual learning, involving identity function from previous layers like ResNet can be explored.
+- Models with inception like modules can be explored.
 - Adding more training data.
